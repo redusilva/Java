@@ -13,7 +13,7 @@ public class DataTeste {
         d2.mes = 10;
         d2.ano = 2002;
         
-        System.out.printf("Hoje eh %d/%d/%d.\n", d1.dia, d1.mes, d1.ano);
-        System.out.printf("Nasci em %d/%d/%d.\n", d2.dia, d2.mes, d2.ano);
+        System.out.printf("Hoje eh %s.\n", d1.obterDataFormatada());
+        System.out.printf("Nasci em %s.\n", d2.obterDataFormatada());
     }
 }
